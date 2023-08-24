@@ -11,13 +11,17 @@ cursos = """
 """
 print (f"Nombre: {nombre} {apellido}")
 print (f"Cursos: {cursos}")
-
+nombre_completo = (f'{nombre} {apellido}')
+print (nombre_completo)
 #Enteros>>(int) se utilizan para representar datos numericos, solo numeros enteros, tanto positivo como negativo.
 year = 2023
 dia = 24
 edad = 39
 temperatura = -15
 print (year , dia , edad , temperatura, sep = "/")
+suma = year + dia + edad
+print (suma)
+
 # Flotantes>>
 
 # Booleanos>>
